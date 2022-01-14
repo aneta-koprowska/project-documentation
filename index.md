@@ -15,6 +15,11 @@ __Pain points__: doesn't like using documentation
 
 ## Potential documents
 
+| Document        | Format           | Distribution  |
+| ------------- |:-------------:| -----:|
+| Inhouse knowledgebase      | online | Cloud-based confluence |
+
+
 - Confluence page in cloud-based Confluence space
 - part of inhouse software documentation knowledgebase
   

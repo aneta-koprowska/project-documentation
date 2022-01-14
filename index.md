@@ -17,8 +17,14 @@ __Pain points__: doesn't like using documentation
 
 |  Document	|  Format	| Distribution 	|  	|  	|
 |:---:	|:---:	|:---:	|---	|---	|
-|  Inhouse software documentation	| confluence page 	|  	|  Confluence (cloud)	|  	|
+|  Inhouse software documentation	| confluence page 	|  	|  Confluence (cloud)	|  	|  
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+
+  
+  
 
 ### Table of Contents
 1. System Overview

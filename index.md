@@ -14,9 +14,11 @@ __Pain points__: doesn't like using documentation
 
 
 ## Potential documents
-| Document        | Format           | Distribution  |
-| ------------- |:-------------:| -----:|
-| Inhouse software documentation     | confluence page | Confluence (cloud) |
+
+|  Document	|  Format	| Distribution 	|  	|  	|
+|:---:	|:---:	|:---:	|---	|---	|
+|  Inhouse software documentation	| confluence page 	|  	|  Confluence (cloud)	|  	|
+
 
 ### Table of Contents
 1. System Overview

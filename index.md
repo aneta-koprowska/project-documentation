@@ -1,12 +1,37 @@
 # Payment process documentation
 
+## Persona
+
+__Name__: John Goodson
+
+![dev](/img/dev.jpeg) 
+
+__Position__: Developer   
+
+__Experience level__: mid  
+
+__Pain points__: doesn't like using documentation
+
+
+## Potential documents
+| Document        | Format           | Distribution  |
+| ------------- |:-------------:| -----:|
+| Inhouse software documentation     | confluence page | Confluence (cloud) |
+
+### Table of Contents
+1. System Overview
+2. Involved Components
+3. Process
+4. Glossary
+
+
 
 ## Payment processing outline
-1. Involved components:
+1. ### Involved components:
    
-__Platform__ (*internal*) → __external API__ (*public*) → __payment provider__ (*external*)
+        Platform (internal) → external API (public) → payment provider (external)
 
-2. Keywords: 
+2. ### Keywords: 
 
 - __payments statuses in platform__ (*new*, *approved*, *scheduled*, *in flight*, *processed*)
 
@@ -16,17 +41,18 @@ __Platform__ (*internal*) → __external API__ (*public*) → __payment provider
 
 - __status mapping__ between platform and payment provider
 
-cron jobs, database objects, synchronization
+    cron jobs, database objects, synchronization
 
-1. Process
-scheduled payments are sent from platform to payment provider via company external API
+3. ### Process
 
-correct payments are approved by the provider and paid out to workers, updated to status success
+- scheduled payments are sent from platform to payment provider via company external API
 
-payments with questionable status are marked as query
+- correct payments are approved by the provider and paid out to workers, updated to status success
 
-unsuccessful payments are marked as fail
+- payments with questionable status are marked as query
 
-payment statuses are synchronized between systems by consistent updating of payment statuses on the side of the platform
+- unsuccessful payments are marked as fail
+
+- payment statuses are synchronized between systems by consistent updating of payment statuses on the side of the platform
 
  
